@@ -13,7 +13,7 @@ keep_alive()
 TOKEN = '7654102389:AAHbvG9oDIIqp9R4osagLkX1T1GcMNHl8Bw'
 MONGO_URI = 'mongodb+srv://sharp:sharp@sharpx.x82gx.mongodb.net/?retryWrites=true&w=majority&appName=SharpX'
 CHANNEL_ID = -1002435870089
-ADMIN_IDS = ["1779185579","1911227466"]
+ADMIN_IDS = [1779185579]
 
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
